@@ -22,6 +22,10 @@ public void addBuddy(BuddyInfo buddy)
         }
         return null;
     }
+    
+    private int size() {
+        return myBuddies.size();
+    }
 
     public static void main(String[] args) {
         System.out.println("Address Book");
